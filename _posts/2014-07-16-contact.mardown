@@ -1,0 +1,21 @@
+---
+name: contact
+class: row
+layout: post
+title:  "Contact Startup Bootstrap"
+short-title: "Contact"
+date:   2014-07-16 13:17:05
+categories: jekyll update
+---
+
+Feel free to email us to provide some feedback on our templates, give us suggestions for new templates and themes, or to just say hello!
+
+feedback@startbootstrap.com
+<ul class="list-inline banner-social-buttons">
+    <li><a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+    </li>
+    <li><a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+    </li>
+    <li><a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+    </li>
+</ul>

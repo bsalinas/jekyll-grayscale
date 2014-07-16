@@ -1,0 +1,43 @@
+---
+layout: default
+---
+  <section class="intro">
+      <div class="intro-body">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                      <h1 class="brand-heading">Grayscale</h1>
+                      <p class="intro-text">A free, premium quality, responsive one page Bootstrap theme created by Start Bootstrap.</p>
+                      <div class="page-scroll">
+                          <a href="#about" class="btn btn-circle">
+                              <i class="fa fa-angle-double-down animated"></i>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  {% for post in site.posts %}
+    {%if post.fullwidth%}
+       <section id="{{post.name}}" class="content-section text-center">
+       <div class="{{post.class}}">
+          <div class="col-lg-8 col-lg-offset-2">
+              <h2>{{post.title}}</h2>
+              {{post.content}}
+          </div>
+      </div>
+    </section>
+    {%else%}
+       <section id="{{post.name}}" class="container content-section text-center">
+        <div class="{{post.class}} row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>{{post.title}}</h2>
+                {{post.content}}
+            </div>
+        </div>
+      </section>
+    {%endif%}
+   
+  {% endfor %}
+   <div id="map"></div>
