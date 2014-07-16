@@ -1,4 +1,4 @@
 jekyll-grayscale
 ================
 
-Jekyll Template using the Bootstrap based Grayscale Theme
+[Jekyll Template](http://jekyllrb.com/) using the Bootstrap based [Grayscale Theme by StartupBootstrap](http://startbootstrap.com/grayscale)
